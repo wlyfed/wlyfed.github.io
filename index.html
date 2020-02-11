@@ -25,7 +25,7 @@
 	            <li><a href="#project-naming">项目命名</a></li>
 	            <li><a href="#folder-naming">目录命名</a></li>
 	            <li><a href="#js-naming">JS文件命名</a></li>
-	            <li><a href="#css-naming">CSS, LESS</a></li>
+	            <li><a href="#css-naming">CSS, SASS</a></li>
 	            <li><a href="#html-naming">HTML文件命名</a></li>
     		</ul>
     		<h4>HTML</h4>
@@ -96,7 +96,7 @@
     		<ul>
     			<li><a href="#doc-html">HTML</a></li>
     			<li><a href="#doc-css">CSS</a></li>
-    			<li><a href="#doc-less">LESS</a></li>
+    			<li><a href="#doc-less">SASS</a></li>
     			<li><a href="#doc-js">JavaScript</a></li>
     			<li><a href="#doc-jquery">jQuery</a></li>
 				<li><a href="#doc-zepto">zepto</a></li>
@@ -149,9 +149,9 @@
 
 <div class="section" id="css-naming">
     <div class="col">
-        <h3>CSS, <a href="http://less.bootcss.com" target="_blank">LESS</a>文件命名</h3>
+        <h3>CSS, <a href="http://sass.bootcss.com" target="_blank">SASS</a>文件命名</h3>
         <p>参照项目命名规则。</p>
-        <p>例：retina_sprites.less</p>
+        <p>例：retina_sprites.scss</p>
     </div>
 </div>
 
@@ -371,7 +371,7 @@
 
 
 <div class="title" id="css">
-    <h2>CSS, <a href="http://less.bootcss.com" target="_blank">LESS</a></h2>
+    <h2>CSS, <a href="http://sass.bootcss.com" target="_blank">SASS</a></h2>
 </div>
 
 <div class="section" id="css-indentation">
@@ -481,7 +481,7 @@
         <p>以下几种情况需要空行：</p>
         <ul>
             <li>文件最后保留一个空行</li>
-            <li>'}'后最好跟一个空行，包括less中嵌套的规则</li>
+            <li>'}'后最好跟一个空行，包括sass中嵌套的规则</li>
             <li>属性之间需要适当的空行，具体见<a href="#css-declaration-order">属性声明顺序</a></li>
         </ul>
     </div>
@@ -553,7 +553,7 @@
 <div class="section" id="css-comments">
     <div class="col">
         <h3>注释</h3>
-        <p>注释统一用'/* */'（less中也不要用'//'），具体参照右边的写法；</p>
+        <p>注释统一用'/* */'（sass中也不要用'//'），具体参照右边的写法；</p>
         <p>缩进与下一行代码保持一致；</p>
         <p>可位于一个代码行的末尾，与代码间隔一个空格。</li>
     </div>
@@ -1069,7 +1069,7 @@
       <li>基于最近的父 class 或基本（base） class 作为新 class 的前缀。</li>
       <li>使用 <code>.js-*</code> class 来标识行为（与样式相对），并且不要将这些 class 包含到 CSS 文件中。</li>
     </ul>
-    <p>在为 Sass 和 Less 变量命名是也可以参考上面列出的各项规范。</p>
+    <p>在为 Sass 变量命名是也可以参考上面列出的各项规范。</p>
   </div>
   <div class="col">
     <div class="highlight"><pre><code class="css"><span class="c">/* Bad example */</span>
@@ -1159,7 +1159,7 @@
         <p>不要在同个规则里出现重复的属性，如果重复的属性是连续的则没关系；</p>
         <p>不要在一个文件里出现两个相同的规则；</p>
         <p>用 <code>border: 0;</code> 代替 <code>border: none;</code>；</p>
-        <p>选择器不要超过4层（在less中如果超过4层应该考虑用嵌套的方式来写）；</p>
+        <p>选择器不要超过4层（在sass中如果超过4层应该考虑用嵌套的方式来写）；</p>
         <p>发布的代码中不要有 <code>@import</code>；</p>
         <p>尽量少用'*'选择器。</p>
     </div>
@@ -2081,11 +2081,11 @@
 
 		<div class="section" id="doc-less">
 		    <div class="col">
-		        <h3>LESS</h3>
+		        <h3>SASS</h3>
 				<ul>
-					<li><a href="http://less.bootcss.com" target="_blank">LESS中文文档</a></li>
-					<li><a href="http://lesscss.org" target="_blank">LESS英文文档</a></li>
-					<li><a href="https://github.com/less" target="_blank">LESS在github</a></li>
+					<li><a href="http://sass.bootcss.com" target="_blank">SASS中文文档</a></li>
+					<li><a href="http://sasscss.org" target="_blank">SASS英文文档</a></li>
+					<li><a href="https://github.com/sass" target="_blank">SASS在github</a></li>
 				</ul>
 		    </div>
 		</div>
